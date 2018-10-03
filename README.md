@@ -1,1 +1,1 @@
-# coding_challenges
+# Coding (whiteboarding) problems
