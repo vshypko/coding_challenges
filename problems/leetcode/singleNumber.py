@@ -16,3 +16,4 @@ class Solution:
         for k, v in dictionary.items():
             if v == 1:
                 return k
+        return None
