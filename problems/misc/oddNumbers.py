@@ -1,6 +1,7 @@
-def odd_numbers():
+def oddNumbers():
     for i in range(1, 100):
         if i % 2 == 1:
             print(i, end=" ")
 
-odd_numbers()
+
+oddNumbers()
