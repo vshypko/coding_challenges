@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/misc/maxNumArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/misc/max_val_array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/misc/multiplication_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/misc/multiplicationTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/misc/odd_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/misc/oddNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/leetcode/findWords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,26 +32,28 @@
     <session id="-659594927">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="md" value="1" />
+          <entry key="py" value="14" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="13" />
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="14" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -61,14 +61,14 @@
         <counts>
           <entry key="Python Console" value="18" />
           <entry key="dummy" value="78" />
-          <entry key="py" value="664" />
+          <entry key="py" value="671" />
           <entry key="sql" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="78" />
-          <entry key="Python" value="682" />
+          <entry key="Python" value="689" />
           <entry key="SQL" value="11" />
         </counts>
       </usages-collector>
@@ -78,11 +78,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/misc/maxNumArray.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/leetcode/findWords.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -91,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/problems/misc/oddNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -100,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/problems/misc/multiplicationTable.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -134,6 +143,7 @@
         <option value="$PROJECT_DIR$/problems/misc/oddNumbers.py" />
         <option value="$PROJECT_DIR$/problems/misc/multiplicationTable.py" />
         <option value="$PROJECT_DIR$/problems/misc/maxNumArray.py" />
+        <option value="$PROJECT_DIR$/problems/leetcode/findWords.py" />
       </list>
     </option>
   </component>
@@ -156,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,13 +183,12 @@
               <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +264,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18669528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -370,24 +380,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/misc/multiplicationTable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/misc/oddNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/misc/multiplicationTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/leetcode/problems_per_companies.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/misc/maxNumArray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/leetcode/findWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
