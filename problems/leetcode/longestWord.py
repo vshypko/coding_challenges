@@ -1,3 +1,4 @@
+# 720
 class Solution:
     def longestWord(self, words):
         """
