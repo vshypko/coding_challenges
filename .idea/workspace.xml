@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/ctci/chapter1/isUnique.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/ctci/chapter1/isUnique.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/ctci/chapter1/isUnique.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +17,7 @@
     <SUITE FILE_PATH="coverage/coding_challenges$google3.coverage" NAME="google3 Coverage Results" MODIFIED="1539200981560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$google1.coverage" NAME="google1 Coverage Results" MODIFIED="1539151485411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$fib.coverage" NAME="fib Coverage Results" MODIFIED="1538905208722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
-    <SUITE FILE_PATH="coverage/coding_challenges$isUnique.coverage" NAME="isUnique Coverage Results" MODIFIED="1540014588316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
+    <SUITE FILE_PATH="coverage/coding_challenges$isUnique.coverage" NAME="isUnique Coverage Results" MODIFIED="1540014999077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$findComplement.coverage" NAME="findComplement Coverage Results" MODIFIED="1539458403066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
   </component>
   <component name="DatabaseView">
@@ -71,14 +71,14 @@
         <counts>
           <entry key="Python Console" value="18" />
           <entry key="dummy" value="158" />
-          <entry key="py" value="4201" />
+          <entry key="py" value="4539" />
           <entry key="sql" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="158" />
-          <entry key="Python" value="4219" />
+          <entry key="Python" value="4557" />
           <entry key="SQL" value="11" />
         </counts>
       </usages-collector>
@@ -94,8 +94,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problems/ctci/chapter1/isUnique.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="561">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <marker date="1540015054533" expanded="true" signature="367:580" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -397,7 +400,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45095542" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45056602" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -666,8 +669,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter1/isUnique.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <marker date="1540015054533" expanded="true" signature="367:580" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
