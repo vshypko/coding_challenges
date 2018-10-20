@@ -1,8 +1,12 @@
 # 1.1
 class Solution:
+    def __init__(self):
+        # for testing purposes
+        pass
+
     # O(N) runtime
     # O(N) space
-    def isUnique(s):
+    def isUnique(self, s):
         if not s:
             return True
 
@@ -16,7 +20,7 @@ class Solution:
 
     # O(N logN) runtime
     # O(1) space
-    def isUniqueSort(s):
+    def isUniqueSort(self, s):
         if not s:
             return True
 
@@ -26,8 +30,9 @@ class Solution:
                 return False
         return True
 
-    assert (isUnique("abcd") is True)
-    assert (isUnique("dzgqmzksqod") is False)
 
-    assert (isUniqueSort("abcd") is True)
-    assert (isUniqueSort("dzgqmzksqod") is False)
+assert (Solution().isUnique("abcd") is True)
+assert (Solution().isUnique("dzgqmzksqod") is False)
+
+assert (Solution().isUniqueSort("abcd") is True)
+assert (Solution().isUniqueSort("dzgqmzksqod") is False)
