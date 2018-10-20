@@ -26,7 +26,6 @@ class Solution:
 
         return oneCounter == 0 or oneCounter == 1
 
-
 assert (Solution().isPalindromePermutation("Tact Coa") is True)
 assert (Solution().isPalindromePermutation("Tact Cloa") is False)
 assert (Solution().isPalindromePermutation("") is True)
