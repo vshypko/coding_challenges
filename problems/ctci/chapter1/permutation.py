@@ -7,14 +7,11 @@ class Solution:
     # O(N) runtime
     # O(N) space
     def isPermutation(self, s1, s2):
-        print(s1)
-        print(s2)
         if len(s1) != len(s2):
             return False
-        hashmap1 = {}
-        hashmap2 = {}
-        firstCounter = 0
-        secondCounter = 0
+
+        hashmap1, hashmap2 = {}, {}
+        counter = 0
 
         for c in s1:
             if c not in hashmap1.keys():
@@ -28,18 +25,33 @@ class Solution:
             else:
                 hashmap2[c] += 1
 
-        for key, value in hashmap1.items():
+        for key in hashmap1.keys():
             if key in hashmap2.keys():
-                if hashmap1[key] >= hashmap2[key]:
-                    firstCounter += 1
+                if hashmap1[key] == hashmap2[key]:
+                    counter += 1
 
-        for key, value in hashmap2.items():
-            if key in hashmap1.keys():
-                if hashmap2[key] >= hashmap1[key]:
-                    secondCounter += 1
+        return counter == len(s2)
 
-        return firstCounter == len(s2) or secondCounter == len(s1)
+    # O(Nlog(N)) runtime
+    # O(1) space
+    def isPermutationSorted(self, s1, s2):
+        if len(s1) != len(s2):
+            return False
+
+        sortedS1 = sorted(s1)
+        sortedS2 = sorted(s2)
+
+        for i in range(len(s1)):
+            if sortedS1[i] != sortedS2[i]:
+                return False
+
+        return True
 
 
-assert (Solution().isPermutation("abcd", "bc") is True)
-assert (Solution().isPermutation("fada", "zx") is False)
+assert (Solution().isPermutation("abcd", "bcda") is True)
+assert (Solution().isPermutation("fadc", "zxwq") is False)
+assert (Solution().isPermutation("fadc", "adc") is False)
+
+assert (Solution().isPermutationSorted("abcd", "bcda") is True)
+assert (Solution().isPermutationSorted("fadc", "zxwq") is False)
+assert (Solution().isPermutationSorted("fadc", "adc") is False)

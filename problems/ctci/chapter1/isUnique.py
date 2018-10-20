@@ -16,9 +16,10 @@ class Solution:
                 hashmap[c] = 1
             else:
                 return False
+
         return True
 
-    # O(N logN) runtime
+    # O(Nlog(N)) runtime
     # O(1) space
     def isUniqueSort(self, s):
         if not s:
@@ -28,6 +29,7 @@ class Solution:
         for i in range(len(sortedS) - 1):
             if sortedS[i] == sortedS[i + 1]:
                 return False
+
         return True
 
 
