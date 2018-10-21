@@ -4,8 +4,8 @@ class Solution:
         # for testing purposes
         pass
 
-    # O() runtime
-    # O() space
+    # O(N) runtime
+    # O(N) space
     def stringCompression(self, s):
         if len(s) <= 0:
             return s
