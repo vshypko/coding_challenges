@@ -11,6 +11,11 @@ class Solution:
             return False
         return True
 
+    def isSubString(self, s1, s2):
+        return s2 in s1
 
-assert Solution().isStringRotation("waterbottl", "erbottlewat") is False
-assert Solution().isStringRotation("waterbottle", "erbottlewat") is True
+
+assert Solution().isSubString("waterbottle", "watr") is False
+assert Solution().isSubString("waterbottle", "water") is True
+# assert Solution().isStringRotation("waterbottl", "erbottlewat") is False
+# assert Solution().isStringRotation("waterbottle", "erbottlewat") is True
