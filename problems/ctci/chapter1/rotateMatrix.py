@@ -7,7 +7,13 @@ class Solution:
     # O() runtime
     # O() space
     def rotateMatrix(self, m):
-        return None
+        if not m:
+            return m
 
-assert (Solution().rotateMatrix([]) == None)
-assert (Solution().rotateMatrix([]) == None)
+        for row in m:
+            print(row)
+
+        return
+
+assert (Solution().rotateMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) == [[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+assert (Solution().rotateMatrix([]) == [])
