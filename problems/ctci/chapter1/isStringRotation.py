@@ -4,18 +4,18 @@ class Solution:
         # for testing purposes
         pass
 
-    # O() runtime
-    # O() space
+    # O(len(s1) + len(s2)) runtime
+    # O(len(s2)) space
     def isStringRotation(self, s1, s2):
         if len(s1) != len(s2):
             return False
-        return True
+        return self.isSubString(s1, s2 + s2)
 
     def isSubString(self, s1, s2):
-        return s2 in s1
+        return s1 in s2
 
 
 assert Solution().isSubString("waterbottle", "watr") is False
 assert Solution().isSubString("waterbottle", "water") is True
-# assert Solution().isStringRotation("waterbottl", "erbottlewat") is False
-# assert Solution().isStringRotation("waterbottle", "erbottlewat") is True
+assert Solution().isStringRotation("waterbottl", "erbottlewat") is False
+assert Solution().isStringRotation("waterbottle", "erbottlewat") is True
