@@ -30,19 +30,43 @@ class Solution:
 
     # O() runtime
     # O() space
-    def removeDuplicates(self, m):
-        return
+    def removeDuplicates(self, linkedList):
+        if not linkedList:
+            return
+        hashmap = {}
+        pointer = linkedList
+        while pointer:
+            if pointer.val not in hashmap.keys():
+                hashmap[pointer.val] = 1
+            else:
+                hashmap[pointer.val] += 1
+            pointer = pointer.next
+        print(hashmap)
+
+        prev = pointer = linkedList
+        startDone = False
+        while pointer and pointer.next:
+            if hashmap[pointer.val] > 1:
+                if not startDone:
+                    linkedList = linkedList.next
+                    prev = linkedList
+                    pointer = linkedList
+                else:
+                    prev.next = pointer.next
+            else:
+                startDone = True
+            prev = pointer
+            pointer = pointer.next
+
+        return linkedList
 
 
-# linkedList = Node(1)
-# linkedList.next = Node(-2)
-# linkedList.next.next = Node(1)
-# linkedList.next.next.next = Node(1)
-# linkedList.next.next.next.next = Node(26)
-# linkedList.next.next.next.next.next = Node(1)
-# linkedList.printValues()
-linkedList = Node.linkedListFromValues([1, -2, 1, 1, 26, 1])
+
+linkedList = Node.linkedListFromValues([1, -2, 3, 1, -2, 1, 26, 1])
+print("Before:")
 linkedList.printValues()
+print("After:")
+Solution().removeDuplicates(linkedList).printValues()
 
 # assert (Solution().removeDuplicates([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) == [[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 # assert (Solution().removeDuplicates([]) == [])
