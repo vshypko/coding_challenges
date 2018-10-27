@@ -70,10 +70,10 @@ linkedList = Node.linkedListFromValues([4, -2, 3, 1, -2, 1, 26, 2])
 assert Solution().removeDuplicates(linkedList).printValues() == "4 -> 3 -> 26 -> 2 -> null"
 
 linkedList = Node.linkedListFromValues([1, 1, 1])
-assert Solution().removeDuplicates(linkedList) == None
+assert Solution().removeDuplicates(linkedList) is None
 
 linkedList = Node.linkedListFromValues([1])
 assert Solution().removeDuplicates(linkedList).printValues() == "1 -> null"
 
 linkedList = Node.linkedListFromValues([])
-assert Solution().removeDuplicates(linkedList) == None
+assert Solution().removeDuplicates(linkedList) is None
