@@ -11,6 +11,7 @@ class Node:
             string += str(temp.val) + " -> "
             temp = temp.next
         print(string + "null")
+        return string + "null"
 
     def linkedListFromValues(listOfValues):
         if not listOfValues:
@@ -28,45 +29,51 @@ class Solution:
         # for testing purposes
         pass
 
-    # O() runtime
-    # O() space
+    # O(N) runtime
+    # O(N) space
     def removeDuplicates(self, linkedList):
         if not linkedList:
             return
+
         hashmap = {}
         pointer = linkedList
+
         while pointer:
             if pointer.val not in hashmap.keys():
                 hashmap[pointer.val] = 1
             else:
                 hashmap[pointer.val] += 1
             pointer = pointer.next
-        print(hashmap)
 
-        prev = pointer = linkedList
-        startDone = False
-        while pointer and pointer.next:
-            if hashmap[pointer.val] > 1:
-                if not startDone:
-                    linkedList = linkedList.next
-                    prev = linkedList
-                    pointer = linkedList
-                else:
-                    prev.next = pointer.next
+        pointer = linkedList
+        foundHead = False
+
+        while pointer:
+            if not foundHead:
+                if hashmap[pointer.val] == 1:
+                    foundHead = True
+                    continue
+                pointer = pointer.next
+                linkedList = pointer
             else:
-                startDone = True
-            prev = pointer
-            pointer = pointer.next
-
+                if pointer.next and hashmap[pointer.next.val] > 1:
+                    pointer.next = pointer.next.next
+                else:
+                    pointer = pointer.next
         return linkedList
 
 
-
 linkedList = Node.linkedListFromValues([1, -2, 3, 1, -2, 1, 26, 1])
-print("Before:")
-linkedList.printValues()
-print("After:")
-Solution().removeDuplicates(linkedList).printValues()
+assert Solution().removeDuplicates(linkedList).printValues() == "3 -> 26 -> null"
 
-# assert (Solution().removeDuplicates([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) == [[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-# assert (Solution().removeDuplicates([]) == [])
+linkedList = Node.linkedListFromValues([4, -2, 3, 1, -2, 1, 26, 2])
+assert Solution().removeDuplicates(linkedList).printValues() == "4 -> 3 -> 26 -> 2 -> null"
+
+linkedList = Node.linkedListFromValues([1, 1, 1])
+assert Solution().removeDuplicates(linkedList) == None
+
+linkedList = Node.linkedListFromValues([1])
+assert Solution().removeDuplicates(linkedList).printValues() == "1 -> null"
+
+linkedList = Node.linkedListFromValues([])
+assert Solution().removeDuplicates(linkedList) == None
