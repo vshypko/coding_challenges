@@ -29,13 +29,35 @@ class Solution:
         # for testing purposes
         pass
 
-    # O() runtime
-    # O() space
-    def deleteMiddleNode(self, linkedList):
-        if not linkedList:
+    # O(N) runtime
+    # O(1) space
+    def deleteMiddleNode(self, middleNode):
+        if not middleNode or not middleNode.next:
             return
 
+        pointer = middleNode
+        while pointer:
+            if pointer.next:
+                pointer.val = pointer.next.val
+            if not pointer.next.next:
+                pointer.next = None
+            pointer = pointer.next
 
-linkedList = Node.linkedListFromValues([1, -2, 3, 1, -2, 1, 26, 13])
 
-Solution().deleteMiddleNode(linkedList)
+linkedList = Node(1)
+linkedList.next = Node(5)
+linkedList.next.next = Node(26)
+linkedList.next.next.next = Node(2)
+linkedList.next.next.next.next = Node(13)
+
+Solution().deleteMiddleNode(linkedList.next)
+assert linkedList.printValues() == "1 -> 26 -> 2 -> 13 -> null"
+
+linkedList = Node(1)
+linkedList.next = Node(5)
+linkedList.next.next = Node(26)
+linkedList.next.next.next = Node(2)
+linkedList.next.next.next.next = Node(13)
+
+Solution().deleteMiddleNode(linkedList.next.next.next.next)
+assert linkedList.printValues() == "1 -> 5 -> 26 -> 2 -> 13 -> null"
