@@ -38,7 +38,7 @@ class Solution:
             return linkedList1
 
         lastNode1 = pointer1 = linkedList1
-        lastNode2 = pointer2 = linkedList2
+        pointer2 = linkedList2
         carry = 0
         firstShorter, secondShorter = False, False
 
@@ -52,12 +52,13 @@ class Solution:
                 carry = 1
             lastNode1 = pointer1
             pointer1, pointer2 = pointer1.next, pointer2.next
+
             if not pointer1 and pointer2:
                 firstShorter = True
+
             if pointer1 and not pointer2:
                 secondShorter = True
 
-        # if linkedList1 shorter
         if firstShorter:
             while pointer2:
                 lastNode1.next = Node(pointer2.val + carry)
@@ -66,7 +67,6 @@ class Solution:
                 pointer2 = pointer2.next
             lastNode1.next = None
 
-        # if linkedList2 shorter
         if secondShorter:
             while pointer1:
                 pointer1.val += carry
@@ -78,25 +78,44 @@ class Solution:
         return linkedList1
 
 
+    def sumReverseListsRecursive(self, linkedList1, linkedList2):
+        if not linkedList1:
+            return linkedList2
+        if not linkedList2:
+            return linkedList1
+
+
+    def sumReverseRecursiveHelper(self, linkedList1, linkedList2, carry):
+        return
+
+
     # O() runtime
     # O() space
-    def sumForwardLists(self, linkedList1, linkedList2):
-        # if not linkedList:
-        return
+    def sumForwardListsIterative(self, linkedList1, linkedList2):
+        if not linkedList1:
+            return linkedList2
+        if not linkedList2:
+            return linkedList1
+
+
 
 
 linkedList1 = Node.linkedListFromValues([7, 1, 6])
 linkedList2 = Node.linkedListFromValues([5, 9, 2])
-assert Solution().sumReverseListsIterative(linkedList1, linkedList2).printValues() == "2 -> 1 -> 9 -> null"
+# assert Solution().sumReverseListsIterative(linkedList1, linkedList2).printValues() == "2 -> 1 -> 9 -> null"
 
 linkedList1 = Node.linkedListFromValues([9, 7, 8])
 linkedList2 = Node.linkedListFromValues([6, 8, 5])
-assert Solution().sumReverseListsIterative(linkedList1, linkedList2).printValues() == "5 -> 6 -> 4 -> 1 -> null"
+# assert Solution().sumReverseListsIterative(linkedList1, linkedList2).printValues() == "5 -> 6 -> 4 -> 1 -> null"
 
 linkedList1 = Node.linkedListFromValues([8])
 linkedList2 = Node.linkedListFromValues([6, 8, 5])
-assert Solution().sumReverseListsIterative(linkedList1, linkedList2).printValues() == "4 -> 9 -> 5 -> null"
+# assert Solution().sumReverseListsIterative(linkedList1, linkedList2).printValues() == "4 -> 9 -> 5 -> null"
 
 linkedList1 = Node.linkedListFromValues([6, 8, 5])
 linkedList2 = Node.linkedListFromValues([8])
-assert Solution().sumReverseListsIterative(linkedList1, linkedList2).printValues() == "4 -> 9 -> 5 -> null"
+# assert Solution().sumReverseListsIterative(linkedList1, linkedList2).printValues() == "4 -> 9 -> 5 -> null"
+
+linkedList1 = Node.linkedListFromValues([6, 1, 7])
+linkedList2 = Node.linkedListFromValues([2, 9, 5])
+# assert Solution().sumReverseListsIterative(linkedList1, linkedList2).printValues() == "9 -> 1 -> 2 -> null"
