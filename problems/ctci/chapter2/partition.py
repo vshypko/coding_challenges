@@ -29,13 +29,28 @@ class Solution:
         # for testing purposes
         pass
 
-    # O() runtime
-    # O() space
+    # O(N^2) runtime
+    # O(1) space
     def partition(self, linkedList, x):
         if not linkedList:
             return
 
+        pointer1 = linkedList
+        while pointer1:
+            if pointer1.val >= x:
+                pointer2 = pointer1.next
+                swapped = False
+                while pointer2 and not swapped:
+                    if pointer2.val < x:
+                        pointer1.val, pointer2.val = pointer2.val, pointer1.val
+                        swapped = True
+                    pointer2 = pointer2.next
+            pointer1 = pointer1.next
+        return linkedList
+
 
 linkedList = Node.linkedListFromValues([3, 5, 8, 5, 10, 2, 1])
-Solution().partition(linkedList, 5)
-# assert linkedList.printValues() == "1 -> 5 -> 26 -> 2 -> 13 -> null"
+assert Solution().partition(linkedList, 5).printValues() == "3 -> 2 -> 1 -> 5 -> 10 -> 5 -> 8 -> null"
+
+linkedList = Node.linkedListFromValues([3, 5, 8, 5, 10, 2, 1])
+assert Solution().partition(linkedList, -10).printValues() == "3 -> 5 -> 8 -> 5 -> 10 -> 2 -> 1 -> null"
