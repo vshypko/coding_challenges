@@ -29,8 +29,8 @@ class Solution:
         # for testing purposes
         pass
 
-    # O() runtime
-    # O() space
+    # O(N) runtime
+    # O(1) space
     def loopDetection(self, linkedList):
         if not linkedList or not linkedList.next:
             return None
