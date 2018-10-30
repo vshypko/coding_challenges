@@ -38,14 +38,25 @@ class Solution:
         if len(s1) != len(s2):
             return False
 
-        sortedS1 = sorted(s1)
-        sortedS2 = sorted(s2)
+        return sorted(s1) == sorted(s2)
 
-        for i in range(len(s1)):
-            if sortedS1[i] != sortedS2[i]:
+    # O(Nlog(N)) runtime
+    # O(1) space
+    def isPermutationAuthor(self, s1, s2):
+        if len(s1) != len(s2):
+            return False
+
+        letters = [0] * 256  # ASCII
+
+        for c in s1:
+            letters[ord(c)] += 1
+
+        for c in s2:
+            letters[ord(c)] -= 1
+            if letters[ord(c)] < 0:
                 return False
 
-        return True
+        return sum(letters) == 0
 
 
 assert (Solution().isPermutation("abcd", "bcda") is True)
@@ -55,3 +66,7 @@ assert (Solution().isPermutation("fadc", "adc") is False)
 assert (Solution().isPermutationSorted("abcd", "bcda") is True)
 assert (Solution().isPermutationSorted("fadc", "zxwq") is False)
 assert (Solution().isPermutationSorted("fadc", "adc") is False)
+
+assert (Solution().isPermutationAuthor("abcd", "bcda") is True)
+assert (Solution().isPermutationAuthor("fadc", "zxwq") is False)
+assert (Solution().isPermutationAuthor("fadc", "adc") is False)
