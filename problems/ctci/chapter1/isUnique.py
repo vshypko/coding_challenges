@@ -32,9 +32,29 @@ class Solution:
 
         return True
 
+    # Author solution (there are only 256 ASCII characters)
+    # O(1) runtime
+    # O(1) space
+    def isUniqueAuthor(self, s):
+        if len(s) > 256:
+            return False
+
+        boolList = [0] * 256
+        for c in s:
+            asciiCode = ord(c)
+            if boolList[asciiCode] == 0:
+                boolList[asciiCode] = 1
+            else:
+                return False
+
+        return True
+
 
 assert (Solution().isUnique("abcd") is True)
 assert (Solution().isUnique("dzgqmzksqod") is False)
 
 assert (Solution().isUniqueSort("abcd") is True)
 assert (Solution().isUniqueSort("dzgqmzksqod") is False)
+
+assert (Solution().isUniqueAuthor("abcd") is True)
+assert (Solution().isUniqueAuthor("dzgqmzksqod") is False)
