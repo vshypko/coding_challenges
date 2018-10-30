@@ -40,7 +40,7 @@ class Solution:
 
         return sorted(s1) == sorted(s2)
 
-    # O(Nlog(N)) runtime
+    # O(N) runtime
     # O(1) space
     def isPermutationAuthor(self, s1, s2):
         if len(s1) != len(s2):
