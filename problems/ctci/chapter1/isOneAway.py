@@ -23,7 +23,7 @@ class Solution:
             if j >= len(shorterString) or longerString[i] != shorterString[j]:
                 diffCounter += 1
                 if len(shorterString) < len(longerString):
-                    j -= 1
+                    continue
             j += 1
 
         return diffCounter == 0 or diffCounter == 1

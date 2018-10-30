@@ -15,7 +15,7 @@ class Solution:
         return s1 in s2
 
 
-assert Solution().isSubString("waterbottle", "watr") is False
-assert Solution().isSubString("waterbottle", "water") is True
+assert Solution().isSubString("watr", "waterbottle") is False
+assert Solution().isSubString("water", "waterbottle") is True
 assert Solution().isStringRotation("waterbottl", "erbottlewat") is False
 assert Solution().isStringRotation("waterbottle", "erbottlewat") is True
