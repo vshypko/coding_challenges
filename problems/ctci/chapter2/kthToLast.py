@@ -38,7 +38,7 @@ class Solution:
         linkedListLength = self.findLinkedListLength(linkedList)
 
         if linkedListLength < k:
-            print("Error! K is greater than the length of the linked list")
+            print("Error! K is greater than the length of the linked list:", k)
             return
 
         pointer = linkedList
@@ -62,6 +62,27 @@ class Solution:
             pointer = pointer.next
         return counter
 
+    # O(N) runtime
+    # O(1) space
+    def kthToLastAuthor(self, linkedList, k):
+        if not linkedList or k < 0:
+            return None
+
+        pointer1 = pointer2 = linkedList
+
+        for i in range(k):
+            if not pointer1:
+                return None
+            pointer1 = pointer1.next
+
+        while pointer1:
+            if k == 0 and not pointer2.next:
+                return pointer2
+            pointer1 = pointer1.next
+            pointer2 = pointer2.next
+
+        return pointer2
+
 
 linkedList = Node.linkedListFromValues([1, -2, 3, 1, -2, 1, 26, 13])
 
@@ -69,3 +90,8 @@ assert Solution().kthToLast(linkedList, 2) == 26
 assert Solution().kthToLast(linkedList, 8) == 1
 assert Solution().kthToLast(linkedList, 0) == 13
 assert Solution().kthToLast(linkedList, 9) is None
+
+assert Solution().kthToLastAuthor(linkedList, 2).val == 26
+assert Solution().kthToLastAuthor(linkedList, 8).val == 1
+assert Solution().kthToLastAuthor(linkedList, 0).val == 13
+assert Solution().kthToLastAuthor(linkedList, 9) is None
