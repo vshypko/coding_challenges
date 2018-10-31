@@ -43,6 +43,16 @@ class Solution:
                 pointer.next = None
             pointer = pointer.next
 
+    # O(N) runtime
+    # O(1) space
+    def deleteMiddleNodeAuthor(self, middleNode):
+        if not middleNode or not middleNode.next:
+            return
+
+        next = middleNode.next
+        middleNode.val = next.val
+        middleNode.next = next.next
+
 
 linkedList = Node(1)
 linkedList.next = Node(5)
@@ -60,4 +70,22 @@ linkedList.next.next.next = Node(2)
 linkedList.next.next.next.next = Node(13)
 
 Solution().deleteMiddleNode(linkedList.next.next.next.next)
+assert linkedList.printValues() == "1 -> 5 -> 26 -> 2 -> 13 -> null"
+
+linkedList = Node(1)
+linkedList.next = Node(5)
+linkedList.next.next = Node(26)
+linkedList.next.next.next = Node(2)
+linkedList.next.next.next.next = Node(13)
+
+Solution().deleteMiddleNodeAuthor(linkedList.next)
+assert linkedList.printValues() == "1 -> 26 -> 2 -> 13 -> null"
+
+linkedList = Node(1)
+linkedList.next = Node(5)
+linkedList.next.next = Node(26)
+linkedList.next.next.next = Node(2)
+linkedList.next.next.next.next = Node(13)
+
+Solution().deleteMiddleNodeAuthor(linkedList.next.next.next.next)
 assert linkedList.printValues() == "1 -> 5 -> 26 -> 2 -> 13 -> null"
