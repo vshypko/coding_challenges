@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/leetcode/reverseInt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/ctci/chapter2/loopDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/ctci/chapter2/loopDetection.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/coding_challenges$stringCompression.coverage" NAME="stringCompression Coverage Results" MODIFIED="1540926201489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$isUnique.coverage" NAME="isUnique Coverage Results" MODIFIED="1540878294302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$isPowerOfThree.coverage" NAME="isPowerOfThree Coverage Results" MODIFIED="1539125750791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
-    <SUITE FILE_PATH="coverage/coding_challenges$partition.coverage" NAME="partition Coverage Results" MODIFIED="1540699959481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
+    <SUITE FILE_PATH="coverage/coding_challenges$partition.coverage" NAME="partition Coverage Results" MODIFIED="1541371659450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$isPalindromePermutation.coverage" NAME="isPalindromePermutation Coverage Results" MODIFIED="1540072090573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$rotateMatrix.coverage" NAME="rotateMatrix Coverage Results" MODIFIED="1540961206301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$google1.coverage" NAME="google1 Coverage Results" MODIFIED="1539151485411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
@@ -26,9 +26,9 @@
     <SUITE FILE_PATH="coverage/coding_challenges$fib.coverage" NAME="fib Coverage Results" MODIFIED="1538905208722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$maxStreak.coverage" NAME="maxStreak Coverage Results" MODIFIED="1540872420640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$countKDistinctSubstrings.coverage" NAME="countKDistinctSubstrings Coverage Results" MODIFIED="1540536048758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
-    <SUITE FILE_PATH="coverage/coding_challenges$loopDetection.coverage" NAME="loopDetection Coverage Results" MODIFIED="1540763459910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
+    <SUITE FILE_PATH="coverage/coding_challenges$loopDetection.coverage" NAME="loopDetection Coverage Results" MODIFIED="1541374334796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$removeDuplicates.coverage" NAME="removeDuplicates Coverage Results" MODIFIED="1541004498733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
-    <SUITE FILE_PATH="coverage/coding_challenges$intersection.coverage" NAME="intersection Coverage Results" MODIFIED="1540762396144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
+    <SUITE FILE_PATH="coverage/coding_challenges$intersection.coverage" NAME="intersection Coverage Results" MODIFIED="1541372379843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$findComplement.coverage" NAME="findComplement Coverage Results" MODIFIED="1539458403066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1540016910278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$isPalindrome.coverage" NAME="isPalindrome Coverage Results" MODIFIED="1540761183020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
@@ -60,7 +60,7 @@
     <session id="-659594927">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="49" />
+          <entry key="project.closed" value="50" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
@@ -72,24 +72,24 @@
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="9" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="51" />
+          <entry key="project.opened" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="3" />
-          <entry key="py" value="110" />
+          <entry key="py" value="118" />
           <entry key="sql" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="3" />
-          <entry key="Python" value="110" />
+          <entry key="Python" value="118" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
@@ -97,14 +97,14 @@
         <counts>
           <entry key="Python Console" value="18" />
           <entry key="dummy" value="174" />
-          <entry key="py" value="19203" />
+          <entry key="py" value="19523" />
           <entry key="sql" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="174" />
-          <entry key="Python" value="19221" />
+          <entry key="Python" value="19541" />
           <entry key="SQL" value="11" />
         </counts>
       </usages-collector>
@@ -118,19 +118,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/leetcode/backspaceCompare.py">
+        <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/sumLists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/intersection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/leetcode/reverseInt.py">
+        <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/loopDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="864">
+              <caret line="74" column="46" lean-forward="true" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -185,12 +194,10 @@
         <option value="$PROJECT_DIR$/problems/misc/countKDistinctSubstrings.py" />
         <option value="$PROJECT_DIR$/problems/misc/twoSum.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/twoSum.py" />
-        <option value="$PROJECT_DIR$/problems/ctci/chapter2/removeDuplicates.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/partition.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/sumLists.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/isPalindrome.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/intersection.py" />
-        <option value="$PROJECT_DIR$/problems/ctci/chapter2/loopDetection.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/maxProfit.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/maxProfit.py" />
         <option value="$PROJECT_DIR$/problems/misc/maxStreak.py" />
@@ -212,6 +219,8 @@
         <option value="$PROJECT_DIR$/problems/leetcode/flipAndInvertImage.py" />
         <option value="$PROJECT_DIR$/problems/misc/eventTickets.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/reverseInt.py" />
+        <option value="$PROJECT_DIR$/problems/ctci/chapter2/removeDuplicates.py" />
+        <option value="$PROJECT_DIR$/problems/ctci/chapter2/loopDetection.py" />
       </list>
     </option>
   </component>
@@ -222,7 +231,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2720" />
+    <option name="x" value="2080" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1417" />
@@ -234,7 +243,38 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="ctci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="ctci" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -260,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deleteMiddleNode">
+  <component name="RunManager" selected="Python.loopDetection">
     <configuration name="deleteMiddleNode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,6 +315,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter2/deleteMiddleNode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="intersection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coding_challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/ctci/chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter2/intersection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,7 +367,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="removeDuplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="loopDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,7 +380,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter2/removeDuplicates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter2/loopDetection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,7 +389,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rotateMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="partition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,34 +397,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/ctci/chapter1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/ctci/chapter2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter1/rotateMatrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="zeroMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coding_challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/ctci/chapter1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter1/zeroMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter2/partition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,19 +412,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.zeroMatrix" />
-      <item itemvalue="Python.rotateMatrix" />
-      <item itemvalue="Python.removeDuplicates" />
       <item itemvalue="Python.kthToLast" />
       <item itemvalue="Python.deleteMiddleNode" />
+      <item itemvalue="Python.partition" />
+      <item itemvalue="Python.intersection" />
+      <item itemvalue="Python.loopDetection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.loopDetection" />
+        <item itemvalue="Python.intersection" />
+        <item itemvalue="Python.partition" />
         <item itemvalue="Python.deleteMiddleNode" />
         <item itemvalue="Python.kthToLast" />
-        <item itemvalue="Python.removeDuplicates" />
-        <item itemvalue="Python.rotateMatrix" />
-        <item itemvalue="Python.zeroMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -411,15 +451,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2720" y="23" width="1280" height="1417" extended-state="0" />
+    <frame x="2080" y="23" width="1280" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" weight="0.18984374" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" weight="0.1898223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23698114" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23698114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4301887" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,7 +468,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32981133" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31245282" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31245282" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -596,41 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/partition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="37" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/sumLists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/isPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="67" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/intersection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="25" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/loopDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/maxProfit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -750,27 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/removeDuplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/kthToLast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/deleteMiddleNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/containsDuplicate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -808,8 +792,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/reverseInt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/removeDuplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/kthToLast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/deleteMiddleNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/partition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/isPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/sumLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/intersection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/loopDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="74" column="46" lean-forward="true" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
         </state>
       </provider>
     </entry>

@@ -31,7 +31,7 @@ class Solution:
 
     # O(N) runtime
     # O(1) space
-    def loopDetection(self, linkedList):
+    def loopBeginningNode(self, linkedList):
         if not linkedList or not linkedList.next:
             return None
 
@@ -39,13 +39,25 @@ class Solution:
         pointer2 = linkedList.next
 
         while pointer1 and pointer2:
-            if pointer1 is pointer2:
-                return pointer1
-            if pointer2 is None or pointer2.next is None or pointer2.next.next is None:
-                return None
             pointer1 = pointer1.next
-            pointer2 = pointer2.next.next
-        return None
+            if pointer2.next and pointer2.next.next:
+                pointer2 = pointer2.next.next
+            else:
+                return None
+            if pointer1 == pointer2:
+                break
+
+        if pointer1 is None or pointer2 is None:
+            return None
+
+        pointer1 = linkedList
+        pointer2 = pointer2.next
+
+        while pointer1 != pointer2:
+            pointer1 = pointer1.next
+            pointer2 = pointer2.next
+
+        return pointer1
 
 
 NodeA = Node('A')
@@ -60,16 +72,16 @@ linkedList1.next = NodeB
 linkedList1.next.next = NodeC
 linkedList1.next.next.next = NodeD
 linkedList1.next.next.next.next = NodeE
-linkedList1.next.next.next.next.next = NodeC
+linkedList1.next.next.next.next.next = linkedList1.next.next
 
-assert Solution().loopDetection(linkedList1).val == 'C'
+assert Solution().loopBeginningNode(linkedList1).val == 'C'
 
 linkedList2 = NodeF
 linkedList2.next = NodeF
 
-assert Solution().loopDetection(linkedList2).val == 'F'
+assert Solution().loopBeginningNode(linkedList2).val == 'F'
 
 linkedList3 = Node('A')
 linkedList3.next = Node('A')
 
-assert Solution().loopDetection(linkedList3) is None
+assert Solution().loopBeginningNode(linkedList3) is None
