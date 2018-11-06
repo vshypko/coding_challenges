@@ -8,6 +8,3 @@ class Solution:
         # divide array into 3 parts [0 - n/3), [n/3 - 2n/3), [2n/3 - n)
         # if we need array sizes to be flexible, need to resize respective parts
         return
-
-
-assert (Solution().isOneAway("pale", "bake") is False)

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/ctci/chapter3/threeInOne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/ctci/chapter3/stackMin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/ctci/chapter3/threeInOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/ctci/chapter3/threeInOne.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,7 @@
     <SUITE FILE_PATH="coverage/coding_challenges$fib.coverage" NAME="fib Coverage Results" MODIFIED="1538905208722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$maxStreak.coverage" NAME="maxStreak Coverage Results" MODIFIED="1540872420640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$countKDistinctSubstrings.coverage" NAME="countKDistinctSubstrings Coverage Results" MODIFIED="1540536048758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
+    <SUITE FILE_PATH="coverage/coding_challenges$stackMin.coverage" NAME="stackMin Coverage Results" MODIFIED="1541488149044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter3" />
     <SUITE FILE_PATH="coverage/coding_challenges$loopDetection.coverage" NAME="loopDetection Coverage Results" MODIFIED="1541374338542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$removeDuplicates.coverage" NAME="removeDuplicates Coverage Results" MODIFIED="1541004498733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$intersection.coverage" NAME="intersection Coverage Results" MODIFIED="1541377579237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
@@ -82,14 +84,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="3" />
-          <entry key="py" value="125" />
+          <entry key="py" value="129" />
           <entry key="sql" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="3" />
-          <entry key="Python" value="125" />
+          <entry key="Python" value="129" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
@@ -97,14 +99,14 @@
         <counts>
           <entry key="Python Console" value="18" />
           <entry key="dummy" value="174" />
-          <entry key="py" value="22057" />
+          <entry key="py" value="22662" />
           <entry key="sql" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="174" />
-          <entry key="Python" value="22075" />
+          <entry key="Python" value="22680" />
           <entry key="SQL" value="11" />
         </counts>
       </usages-collector>
@@ -118,10 +120,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/ctci/chapter3/threeInOne.py">
+        <entry file="file://$PROJECT_DIR$/problems/ctci/chapter3/stackMin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+            <state relative-caret-position="612">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+              <folding>
+                <marker date="1541488148611" expanded="true" signature="295:404" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/misc/googleSample.py" />
         <option value="$PROJECT_DIR$/problems/misc/baskets.py" />
         <option value="$PROJECT_DIR$/problems/misc/recursive_string_reverse.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/middleNode.py" />
@@ -183,7 +187,6 @@
         <option value="$PROJECT_DIR$/problems/leetcode/climbStairs.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/maxArea.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter1/isOneAway.py" />
-        <option value="$PROJECT_DIR$/problems/ctci/chapter1/isStringRotation.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter1/zeroMatrix.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter1/rotateMatrix.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/kthToLast.py" />
@@ -203,6 +206,8 @@
         <option value="$PROJECT_DIR$/problems/misc/maxFlorists.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/findKthLargest.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter3/threeInOne.py" />
+        <option value="$PROJECT_DIR$/problems/ctci/chapter1/isStringRotation.py" />
+        <option value="$PROJECT_DIR$/problems/ctci/chapter3/stackMin.py" />
       </list>
     </option>
   </component>
@@ -213,7 +218,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
+    <option name="x" value="2080" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1417" />
@@ -243,6 +248,20 @@
               <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
               <item name="ctci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="ctci" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="ctci" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,29 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sumLists">
-    <configuration name="deleteMiddleNode" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coding_challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/ctci/chapter2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter2/deleteMiddleNode.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.stackMin">
     <configuration name="intersection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -364,6 +361,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stackMin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coding_challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/ctci/chapter3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter3/stackMin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sumLists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -387,19 +406,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.deleteMiddleNode" />
       <item itemvalue="Python.partition" />
       <item itemvalue="Python.intersection" />
       <item itemvalue="Python.loopDetection" />
       <item itemvalue="Python.sumLists" />
+      <item itemvalue="Python.stackMin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stackMin" />
         <item itemvalue="Python.sumLists" />
         <item itemvalue="Python.intersection" />
         <item itemvalue="Python.loopDetection" />
         <item itemvalue="Python.partition" />
-        <item itemvalue="Python.deleteMiddleNode" />
       </list>
     </recent_temporary>
   </component>
@@ -426,9 +445,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1280" height="1417" extended-state="0" />
+    <frame x="2080" y="23" width="1280" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" weight="0.215625" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23625557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43016344" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32866243" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22065379" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32981133" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.215625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
@@ -450,7 +492,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -470,13 +512,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/leetcode/hammingDistance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/fizzBuzz.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -667,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter1/isStringRotation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter1/zeroMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -741,13 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/deleteMiddleNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -823,8 +844,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter3/threeInOne.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/deleteMiddleNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter1/isStringRotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="true" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter3/stackMin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <marker date="1541488148611" expanded="true" signature="295:404" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
