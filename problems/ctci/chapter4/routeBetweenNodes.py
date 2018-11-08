@@ -1,11 +1,11 @@
-# 4.
+# 4.1
 class Solution:
     def __init__(self):
         # for testing purposes
         pass
 
-    # O() runtime
-    # O() space
+    # O(|V| + |E|) runtime
+    # O(N) space
     def routeBetweenNodes(self, graph, node1, node2):
         fringe = list()
         visited = set()
