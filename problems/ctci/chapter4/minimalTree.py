@@ -11,8 +11,8 @@ class Solution:
         # for testing purposes
         pass
 
-    # O(N) runtime
-    # O(1) space
+    # O(N log N) runtime
+    # O(N) space
     def minimalTree(self, array):
         if not array:
             return
