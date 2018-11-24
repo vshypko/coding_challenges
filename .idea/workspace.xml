@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py" afterDir="false" />
-    </list>
+    <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +69,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="362">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#16#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/arrays/hourglassSum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
               </folding>
@@ -114,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/leetcode/maxProfit.py" />
         <option value="$PROJECT_DIR$/problems/misc/maxStreak.py" />
         <option value="$PROJECT_DIR$/problems/misc/test.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/countBattleShips.py" />
@@ -165,6 +173,7 @@
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/countingValleys.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/jumpingOnClouds.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py" />
+        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/arrays/hourglassSum.py" />
       </list>
     </option>
   </component>
@@ -212,14 +221,6 @@
               <item name="problems" type="462c0819:PsiDirectoryNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
-              <item name="warm_up_challenges" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -393,12 +394,12 @@
       <workItem from="1542865392694" duration="619000" />
       <workItem from="1543002300805" duration="448000" />
       <workItem from="1543043561785" duration="487000" />
-      <workItem from="1543080675453" duration="170000" />
+      <workItem from="1543080675453" duration="358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1724000" />
+    <option name="totallyTimeSpent" value="1912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,7 +413,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.08941345" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.15665236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -514,13 +515,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter1/isPalindromePermutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/findWords.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -875,8 +869,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="362">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/arrays/hourglassSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
           </folding>
