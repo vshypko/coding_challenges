@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="" />
+    <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/arrays/hourglassSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/hourglassSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/countingValleys.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/countingValleys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/jumpingOnClouds.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/jumpingOnClouds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/repeatedString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/sockMerchant.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/sockMerchant.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +77,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/repeatedString.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
               <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
@@ -82,7 +89,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/arrays/hourglassSum.py">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/hourglassSum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
@@ -178,9 +185,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="2720" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="width" value="1280" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -394,12 +402,12 @@
       <workItem from="1542865392694" duration="619000" />
       <workItem from="1543002300805" duration="448000" />
       <workItem from="1543043561785" duration="487000" />
-      <workItem from="1543080675453" duration="358000" />
+      <workItem from="1543080675453" duration="699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1912000" />
+    <option name="totallyTimeSpent" value="2253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,7 +845,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/sockMerchant.py">
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/sockMerchant.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
@@ -847,7 +855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/countingValleys.py">
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/countingValleys.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
@@ -857,7 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/jumpingOnClouds.py">
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/jumpingOnClouds.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
@@ -867,7 +875,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py">
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/repeatedString.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
@@ -877,7 +885,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/arrays/hourglassSum.py">
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/hourglassSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
