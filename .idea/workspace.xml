@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/rotLeft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/arrays/hourglassSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/hourglassSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/countingValleys.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/countingValleys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/jumpingOnClouds.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/jumpingOnClouds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/repeatedString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/sockMerchant.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/sockMerchant.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,23 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/repeatedString.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#16#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/hourglassSum.py">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/rotLeft.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="544">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
               </folding>
@@ -130,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/misc/maxStreak.py" />
-        <option value="$PROJECT_DIR$/problems/misc/test.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/countBattleShips.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter1/isUnique.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter1/isPermutation.py" />
@@ -181,6 +163,8 @@
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/jumpingOnClouds.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/warm_up_challenges/repeatedString.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/arrays/hourglassSum.py" />
+        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/hourglassSum.py" />
+        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/rotLeft.py" />
       </list>
     </option>
   </component>
@@ -215,12 +199,6 @@
               <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,6 +207,14 @@
               <item name="problems" type="462c0819:PsiDirectoryNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="2_arrays" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -403,11 +389,13 @@
       <workItem from="1543002300805" duration="448000" />
       <workItem from="1543043561785" duration="487000" />
       <workItem from="1543080675453" duration="699000" />
+      <workItem from="1543190782881" duration="218000" />
+      <workItem from="1543207167721" duration="156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2253000" />
+    <option name="totallyTimeSpent" value="2627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,9 +407,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="2720" y="23" width="1280" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.15665236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.18174475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -435,7 +424,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32830188" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32738853" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19396226" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32981133" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -523,13 +512,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/leetcode/findWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/climbStairs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -877,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/1_warm_up_challenges/repeatedString.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="357">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
           </folding>
@@ -887,8 +869,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/hourglassSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/rotLeft.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
           </folding>
