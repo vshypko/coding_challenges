@@ -8,6 +8,7 @@ import sys
 
 # Complete the minimumSwaps function below.
 def minimumSwaps(arr):
+    pass
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

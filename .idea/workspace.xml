@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumBribes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/3_dicts_maps/checkMagazine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumSwaps.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumSwaps.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/coding_challenges$totalFruit.coverage" NAME="totalFruit Coverage Results" MODIFIED="1542093298512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$isStringRotation.coverage" NAME="isStringRotation Coverage Results" MODIFIED="1540926358157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
+    <SUITE FILE_PATH="coverage/coding_challenges$checkMagazine.coverage" NAME="checkMagazine Coverage Results" MODIFIED="1543975064026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/3_dicts_maps" />
     <SUITE FILE_PATH="coverage/coding_challenges$climbStairs.coverage" NAME="climbStairs Coverage Results" MODIFIED="1540923482201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$isOneAway.coverage" NAME="isOneAway Coverage Results" MODIFIED="1540925981252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$rotateMatrix.coverage" NAME="rotateMatrix Coverage Results" MODIFIED="1540961206301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
@@ -73,10 +75,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/rotLeft.py">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumSwaps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
               </folding>
@@ -85,10 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumBribes.py">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/3_dicts_maps/checkMagazine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="442">
+              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
               </folding>
@@ -126,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ctci/chapter1/isUnique.py" />
-        <option value="$PROJECT_DIR$/problems/ctci/chapter1/isPermutation.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/climbStairs.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/maxArea.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter1/isOneAway.py" />
@@ -177,11 +177,13 @@
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/hourglassSum.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/rotLeft.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumBribes.py" />
+        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumSwaps.py" />
+        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/3_dicts_maps/checkMagazine.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2581" />
+    <option name="x" value="2720" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1417" />
@@ -227,6 +229,14 @@
               <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
               <item name="2_arrays" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="3_dicts_maps" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -259,7 +269,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.isToeplitzMatrix">
+  <component name="RunManager" selected="Python.checkMagazine">
+    <configuration name="checkMagazine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coding_challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/3_dicts_maps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/3_dicts_maps/checkMagazine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="checkTicTacToe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,28 +328,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/leetcode/findAnagrams.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="isBalanced" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coding_challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/ctci/chapter4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,19 +381,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.isBalanced" />
       <item itemvalue="Python.pancakeSort" />
       <item itemvalue="Python.checkTicTacToe" />
       <item itemvalue="Python.findAnagrams" />
       <item itemvalue="Python.isToeplitzMatrix" />
+      <item itemvalue="Python.checkMagazine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.checkMagazine" />
         <item itemvalue="Python.isToeplitzMatrix" />
         <item itemvalue="Python.findAnagrams" />
         <item itemvalue="Python.checkTicTacToe" />
         <item itemvalue="Python.pancakeSort" />
-        <item itemvalue="Python.isBalanced" />
       </list>
     </recent_temporary>
   </component>
@@ -404,11 +414,15 @@
       <workItem from="1543190782881" duration="218000" />
       <workItem from="1543207167721" duration="771000" />
       <workItem from="1543218539715" duration="53000" />
+      <workItem from="1543261955080" duration="164000" />
+      <workItem from="1543267830561" duration="267000" />
+      <workItem from="1543297266172" duration="295000" />
+      <workItem from="1543973361780" duration="424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3295000" />
+    <option name="totallyTimeSpent" value="4445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,14 +434,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2581" y="63" width="1280" height="1417" extended-state="0" />
+    <frame x="2720" y="23" width="1280" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.18416801" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.19386107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3732484" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37283018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4598726" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,7 +451,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32830188" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19396226" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.114716984" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32981133" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -524,20 +539,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/leetcode/maxArea.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter1/stringCompression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter1/zeroMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -884,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/rotLeft.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="459">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
           </folding>
@@ -894,8 +895,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumBribes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="561">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumSwaps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/3_dicts_maps/checkMagazine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
           </folding>
