@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/height.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,11 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/leetcode/possibleBipartition.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/height.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -133,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ctci/chapter1/isOneAway.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter1/zeroMatrix.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter1/rotateMatrix.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/kthToLast.py" />
@@ -184,6 +193,7 @@
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/3_dicts_maps/checkMagazine.py" />
         <option value="$PROJECT_DIR$/problems/misc/binarySearch.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/possibleBipartition.py" />
+        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/height.py" />
       </list>
     </option>
   </component>
@@ -201,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,23 +237,10 @@
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,11 +419,12 @@
       <workItem from="1543973361780" duration="1833000" />
       <workItem from="1543985121674" duration="613000" />
       <workItem from="1544074274537" duration="30000" />
+      <workItem from="1544074380629" duration="354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6497000" />
+    <option name="totallyTimeSpent" value="6851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,7 +438,7 @@
   <component name="ToolWindowManager">
     <frame x="2720" y="23" width="1280" height="1417" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.20355412" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.20355412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -453,7 +452,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32830188" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4083019" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4083019" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32981133" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -541,13 +540,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/leetcode/backspaceCompare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/reverseInt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -904,8 +896,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/possibleBipartition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/height.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
