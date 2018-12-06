@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/height.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/height.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="635">
               <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/13_recursion_backtracking/fibonacci.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -143,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ctci/chapter1/zeroMatrix.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter1/rotateMatrix.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/kthToLast.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/deleteMiddleNode.py" />
@@ -194,6 +199,7 @@
         <option value="$PROJECT_DIR$/problems/misc/binarySearch.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/possibleBipartition.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/height.py" />
+        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/13_recursion_backtracking/fibonacci.py" />
       </list>
     </option>
   </component>
@@ -236,6 +242,14 @@
               <item name="problems" type="462c0819:PsiDirectoryNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="13_recursion_backtracking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -419,12 +433,12 @@
       <workItem from="1543973361780" duration="1833000" />
       <workItem from="1543985121674" duration="613000" />
       <workItem from="1544074274537" duration="30000" />
-      <workItem from="1544074380629" duration="354000" />
+      <workItem from="1544074380629" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6851000" />
+    <option name="totallyTimeSpent" value="7095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,13 +554,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/leetcode/reverseInt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/removeDuplicates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="762">
@@ -905,6 +912,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/13_recursion_backtracking/fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
