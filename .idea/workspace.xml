@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="" />
+    <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/problems/leetcode/mergeTwoLists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,11 +113,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/13_recursion_backtracking/fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/lca.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/leetcode/mergeTwoLists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -149,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ctci/chapter1/rotateMatrix.py" />
-        <option value="$PROJECT_DIR$/problems/ctci/chapter2/kthToLast.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter2/deleteMiddleNode.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/backspaceCompare.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/containsDuplicates.py" />
@@ -200,13 +219,15 @@
         <option value="$PROJECT_DIR$/problems/leetcode/possibleBipartition.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/height.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/13_recursion_backtracking/fibonacci.py" />
+        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/lca.py" />
+        <option value="$PROJECT_DIR$/problems/leetcode/mergeTwoLists.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2720" />
+    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="2560" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -234,22 +255,7 @@
               <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
-              <item name="13_recursion_backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -433,12 +439,12 @@
       <workItem from="1543973361780" duration="1833000" />
       <workItem from="1543985121674" duration="613000" />
       <workItem from="1544074274537" duration="30000" />
-      <workItem from="1544074380629" duration="598000" />
+      <workItem from="1544074380629" duration="1123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7095000" />
+    <option name="totallyTimeSpent" value="7620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,9 +456,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2720" y="23" width="1280" height="1417" extended-state="0" />
+    <frame x="1440" y="23" width="2560" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.20355412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.100079425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -466,7 +473,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32830188" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4083019" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4083019" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32981133" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -554,20 +561,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/removeDuplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/kthToLast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/partition.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -919,6 +912,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/lca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/leetcode/mergeTwoLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
