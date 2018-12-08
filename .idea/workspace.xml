@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/leetcode/spiralOrder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/leetcode/isPowerOfTwo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +22,7 @@
     <SUITE FILE_PATH="coverage/coding_challenges$deleteMiddleNode.coverage" NAME="deleteMiddleNode Coverage Results" MODIFIED="1541005431829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$binarySearch.coverage" NAME="binarySearch Coverage Results" MODIFIED="1543977647307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$partition.coverage" NAME="partition Coverage Results" MODIFIED="1541371659450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
+    <SUITE FILE_PATH="coverage/coding_challenges$isPowerOfTwo.coverage" NAME="isPowerOfTwo Coverage Results" MODIFIED="1544236162557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$isPalindrome.coverage" NAME="isPalindrome Coverage Results" MODIFIED="1540761183020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$spiralOrder.coverage" NAME="spiralOrder Coverage Results" MODIFIED="1544234948908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$maxStreak.coverage" NAME="maxStreak Coverage Results" MODIFIED="1540872420640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
@@ -75,11 +76,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/leetcode/spiralOrder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/leetcode/isPowerOfTwo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -114,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/leetcode/backspaceCompare.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/containsDuplicates.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/findPeakElement.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/flipAndInvertImage.py" />
@@ -165,6 +174,7 @@
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/lca.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/mergeTwoLists.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/spiralOrder.py" />
+        <option value="$PROJECT_DIR$/problems/leetcode/isPowerOfTwo.py" />
       </list>
     </option>
   </component>
@@ -182,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,7 +215,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.spiralOrder">
+  <component name="RunManager" selected="Python.isPowerOfTwo">
     <configuration name="binarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,7 +287,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findAnagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="isPowerOfTwo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,7 +300,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/leetcode/findAnagrams.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/leetcode/isPowerOfTwo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -344,19 +354,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.findAnagrams" />
       <item itemvalue="Python.isToeplitzMatrix" />
       <item itemvalue="Python.checkMagazine" />
       <item itemvalue="Python.binarySearch" />
       <item itemvalue="Python.spiralOrder" />
+      <item itemvalue="Python.isPowerOfTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.isPowerOfTwo" />
         <item itemvalue="Python.spiralOrder" />
         <item itemvalue="Python.binarySearch" />
         <item itemvalue="Python.checkMagazine" />
         <item itemvalue="Python.isToeplitzMatrix" />
-        <item itemvalue="Python.findAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -384,12 +394,13 @@
       <workItem from="1543985121674" duration="613000" />
       <workItem from="1544074274537" duration="30000" />
       <workItem from="1544074380629" duration="1405000" />
-      <workItem from="1544228895305" duration="4643000" />
+      <workItem from="1544228895305" duration="4717000" />
+      <workItem from="1544235934271" duration="325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12545000" />
+    <option name="totallyTimeSpent" value="12944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +415,7 @@
     <frame x="1440" y="23" width="2560" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.10087371" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.10166799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -496,13 +507,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/leetcode/spiralOrder.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -513,13 +517,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/intersection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="65" lean-forward="true" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/sumLists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -872,8 +869,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/spiralOrder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/leetcode/isPowerOfTwo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
