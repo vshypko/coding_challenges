@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/5_strings/isValid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,11 +110,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/5_strings/isValid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="85">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/14_misc/flippingBits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
               </folding>
@@ -153,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ctci/chapter2/sumLists.py" />
         <option value="$PROJECT_DIR$/problems/misc/strengthenPassword.py" />
         <option value="$PROJECT_DIR$/problems/misc/solveMinesweeper.py" />
         <option value="$PROJECT_DIR$/problems/misc/maxFlorists.py" />
@@ -204,6 +211,7 @@
         <option value="$PROJECT_DIR$/problems/leetcode/isPalindrome.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/5_strings/alternatingCharacters.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/5_strings/isValid.py" />
+        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/14_misc/flippingBits.py" />
       </list>
     </option>
   </component>
@@ -451,12 +459,12 @@
       <workItem from="1544418209391" duration="697000" />
       <workItem from="1544501919448" duration="436000" />
       <workItem from="1544593855058" duration="102000" />
-      <workItem from="1544676813041" duration="1230000" />
+      <workItem from="1544676813041" duration="1506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16357000" />
+    <option name="totallyTimeSpent" value="16633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,7 +477,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="2560" height="1417" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.13145353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -477,7 +484,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37283018" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45962265" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45962265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32981133" />
@@ -485,7 +492,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32830188" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4083019" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4083019" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32981133" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -573,13 +580,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter3/threeInOne.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter3/stackMin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -938,8 +938,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/5_strings/isValid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/14_misc/flippingBits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
           </folding>
