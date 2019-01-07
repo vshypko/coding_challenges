@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/leetcode/hasPathSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/leetcode/lowestCommonAncestor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,11 +80,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/leetcode/hasPathSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="51" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/leetcode/lowestCommonAncestor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -119,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ctci/chapter4/minimalTree.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/listOfDepths.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/totalFruit.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/checkBalanced.py" />
@@ -170,6 +178,7 @@
         <option value="$PROJECT_DIR$/problems/leetcode/maxProfit2.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/isHappy.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/hasPathSum.py" />
+        <option value="$PROJECT_DIR$/problems/leetcode/lowestCommonAncestor.py" />
       </list>
     </option>
   </component>
@@ -415,12 +424,12 @@
       <workItem from="1546582641675" duration="554000" />
       <workItem from="1546647211531" duration="1994000" />
       <workItem from="1546744602280" duration="591000" />
-      <workItem from="1546847296620" duration="1474000" />
+      <workItem from="1546847296620" duration="1752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24232000" />
+    <option name="totallyTimeSpent" value="24510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,13 +546,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/leetcode/firstUniqChar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/reverseWords.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -902,8 +904,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/hasPathSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="51" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/leetcode/lowestCommonAncestor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
