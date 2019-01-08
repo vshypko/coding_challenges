@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/leetcode/lowestCommonAncestor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/misc/people.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,31 +17,38 @@
     <SUITE FILE_PATH="coverage/coding_challenges$checkMagazine.coverage" NAME="checkMagazine Coverage Results" MODIFIED="1543975064026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/3_dicts_maps" />
     <SUITE FILE_PATH="coverage/coding_challenges$climbStairs.coverage" NAME="climbStairs Coverage Results" MODIFIED="1540923482201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$isOneAway.coverage" NAME="isOneAway Coverage Results" MODIFIED="1540925981252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
-    <SUITE FILE_PATH="coverage/coding_challenges$rotateMatrix.coverage" NAME="rotateMatrix Coverage Results" MODIFIED="1540961206301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
-    <SUITE FILE_PATH="coverage/coding_challenges$google2.coverage" NAME="google2 Coverage Results" MODIFIED="1539156145788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$deleteMiddleNode.coverage" NAME="deleteMiddleNode Coverage Results" MODIFIED="1541005431829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
-    <SUITE FILE_PATH="coverage/coding_challenges$binarySearch.coverage" NAME="binarySearch Coverage Results" MODIFIED="1543977647307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
-    <SUITE FILE_PATH="coverage/coding_challenges$partition.coverage" NAME="partition Coverage Results" MODIFIED="1541371659450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
+    <SUITE FILE_PATH="coverage/coding_challenges$people.coverage" NAME="people Coverage Results" MODIFIED="1546928976819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$isPowerOfTwo.coverage" NAME="isPowerOfTwo Coverage Results" MODIFIED="1544236162557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
-    <SUITE FILE_PATH="coverage/coding_challenges$isPalindrome.coverage" NAME="isPalindrome Coverage Results" MODIFIED="1540761183020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$spiralOrder.coverage" NAME="spiralOrder Coverage Results" MODIFIED="1544234948908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
-    <SUITE FILE_PATH="coverage/coding_challenges$maxStreak.coverage" NAME="maxStreak Coverage Results" MODIFIED="1540872420640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
-    <SUITE FILE_PATH="coverage/coding_challenges$loopDetection.coverage" NAME="loopDetection Coverage Results" MODIFIED="1541374338542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$pancakeSort.coverage" NAME="pancakeSort Coverage Results" MODIFIED="1542137833361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/pramp" />
-    <SUITE FILE_PATH="coverage/coding_challenges$listOfDepths.coverage" NAME="listOfDepths Coverage Results" MODIFIED="1542090565770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
     <SUITE FILE_PATH="coverage/coding_challenges$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1540016910278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
-    <SUITE FILE_PATH="coverage/coding_challenges$isPowerOfThree.coverage" NAME="isPowerOfThree Coverage Results" MODIFIED="1539125750791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$isPermutation.coverage" NAME="isPermutation Coverage Results" MODIFIED="1540878882921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
-    <SUITE FILE_PATH="coverage/coding_challenges$isBalanced.coverage" NAME="isBalanced Coverage Results" MODIFIED="1542094642196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
-    <SUITE FILE_PATH="coverage/coding_challenges$sumLists.coverage" NAME="sumLists Coverage Results" MODIFIED="1541380029967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$stackMin.coverage" NAME="stackMin Coverage Results" MODIFIED="1541488157100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter3" />
     <SUITE FILE_PATH="coverage/coding_challenges$removeDuplicates.coverage" NAME="removeDuplicates Coverage Results" MODIFIED="1541004498733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$mostCommonWord.coverage" NAME="mostCommonWord Coverage Results" MODIFIED="1544328638860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
+    <SUITE FILE_PATH="coverage/coding_challenges$routeBetweenNodes.coverage" NAME="routeBetweenNodes Coverage Results" MODIFIED="1541658655620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
+    <SUITE FILE_PATH="coverage/coding_challenges$twoSum.coverage" NAME="twoSum Coverage Results" MODIFIED="1540622327231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
+    <SUITE FILE_PATH="coverage/coding_challenges$isValid.coverage" NAME="isValid Coverage Results" MODIFIED="1544684971611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/5_strings" />
+    <SUITE FILE_PATH="coverage/coding_challenges$google1.coverage" NAME="google1 Coverage Results" MODIFIED="1539151485411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
+    <SUITE FILE_PATH="coverage/coding_challenges$test.coverage" NAME="test Coverage Results" MODIFIED="1540876270778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
+    <SUITE FILE_PATH="coverage/coding_challenges$findAnagrams.coverage" NAME="findAnagrams Coverage Results" MODIFIED="1542264705456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
+    <SUITE FILE_PATH="coverage/coding_challenges$minimalTree.coverage" NAME="minimalTree Coverage Results" MODIFIED="1541661699590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
+    <SUITE FILE_PATH="coverage/coding_challenges$isHappy.coverage" NAME="isHappy Coverage Results" MODIFIED="1546848860892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
+    <SUITE FILE_PATH="coverage/coding_challenges$rotateMatrix.coverage" NAME="rotateMatrix Coverage Results" MODIFIED="1540961206301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
+    <SUITE FILE_PATH="coverage/coding_challenges$google2.coverage" NAME="google2 Coverage Results" MODIFIED="1539156145788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
+    <SUITE FILE_PATH="coverage/coding_challenges$binarySearch.coverage" NAME="binarySearch Coverage Results" MODIFIED="1543977647307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
+    <SUITE FILE_PATH="coverage/coding_challenges$partition.coverage" NAME="partition Coverage Results" MODIFIED="1541371659450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
+    <SUITE FILE_PATH="coverage/coding_challenges$isPalindrome.coverage" NAME="isPalindrome Coverage Results" MODIFIED="1540761183020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
+    <SUITE FILE_PATH="coverage/coding_challenges$maxStreak.coverage" NAME="maxStreak Coverage Results" MODIFIED="1540872420640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
+    <SUITE FILE_PATH="coverage/coding_challenges$loopDetection.coverage" NAME="loopDetection Coverage Results" MODIFIED="1541374338542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
+    <SUITE FILE_PATH="coverage/coding_challenges$listOfDepths.coverage" NAME="listOfDepths Coverage Results" MODIFIED="1542090565770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
+    <SUITE FILE_PATH="coverage/coding_challenges$isPowerOfThree.coverage" NAME="isPowerOfThree Coverage Results" MODIFIED="1539125750791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
+    <SUITE FILE_PATH="coverage/coding_challenges$isBalanced.coverage" NAME="isBalanced Coverage Results" MODIFIED="1542094642196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
+    <SUITE FILE_PATH="coverage/coding_challenges$sumLists.coverage" NAME="sumLists Coverage Results" MODIFIED="1541380029967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$stringCompression.coverage" NAME="stringCompression Coverage Results" MODIFIED="1540926201489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$intersection.coverage" NAME="intersection Coverage Results" MODIFIED="1541377579237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$google3.coverage" NAME="google3 Coverage Results" MODIFIED="1539200981560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
-    <SUITE FILE_PATH="coverage/coding_challenges$routeBetweenNodes.coverage" NAME="routeBetweenNodes Coverage Results" MODIFIED="1541658655620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
-    <SUITE FILE_PATH="coverage/coding_challenges$twoSum.coverage" NAME="twoSum Coverage Results" MODIFIED="1540622327231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$findComplement.coverage" NAME="findComplement Coverage Results" MODIFIED="1539458403066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$isToeplitzMatrix.coverage" NAME="isToeplitzMatrix Coverage Results" MODIFIED="1542696038008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$zeroMatrix.coverage" NAME="zeroMatrix Coverage Results" MODIFIED="1540926399039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
@@ -50,16 +57,10 @@
     <SUITE FILE_PATH="coverage/coding_challenges$fib.coverage" NAME="fib Coverage Results" MODIFIED="1538905208722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$isUnique.coverage" NAME="isUnique Coverage Results" MODIFIED="1540878294302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$kthToLast.coverage" NAME="kthToLast Coverage Results" MODIFIED="1541005275750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
-    <SUITE FILE_PATH="coverage/coding_challenges$isValid.coverage" NAME="isValid Coverage Results" MODIFIED="1544684971611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/5_strings" />
     <SUITE FILE_PATH="coverage/coding_challenges$urlify.coverage" NAME="urlify Coverage Results" MODIFIED="1540017722609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
-    <SUITE FILE_PATH="coverage/coding_challenges$google1.coverage" NAME="google1 Coverage Results" MODIFIED="1539151485411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$countKDistinctSubstrings.coverage" NAME="countKDistinctSubstrings Coverage Results" MODIFIED="1540536048758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
-    <SUITE FILE_PATH="coverage/coding_challenges$test.coverage" NAME="test Coverage Results" MODIFIED="1540876270778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$stackOfPlates.coverage" NAME="stackOfPlates Coverage Results" MODIFIED="1541658496979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter3" />
     <SUITE FILE_PATH="coverage/coding_challenges$checkTicTacToe.coverage" NAME="checkTicTacToe Coverage Results" MODIFIED="1542240929972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
-    <SUITE FILE_PATH="coverage/coding_challenges$findAnagrams.coverage" NAME="findAnagrams Coverage Results" MODIFIED="1542264705456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
-    <SUITE FILE_PATH="coverage/coding_challenges$minimalTree.coverage" NAME="minimalTree Coverage Results" MODIFIED="1541661699590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
-    <SUITE FILE_PATH="coverage/coding_challenges$isHappy.coverage" NAME="isHappy Coverage Results" MODIFIED="1546848860892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -80,20 +81,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/leetcode/hasPathSum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/leetcode/lowestCommonAncestor.py">
+        <entry file="file://$PROJECT_DIR$/problems/misc/people.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="357">
+              <caret line="120" selection-start-line="120" selection-end-line="121" selection-end-column="32" />
+              <folding>
+                <element signature="e#335#364#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ctci/chapter4/listOfDepths.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/totalFruit.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/checkBalanced.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py" />
@@ -179,6 +173,7 @@
         <option value="$PROJECT_DIR$/problems/leetcode/isHappy.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/hasPathSum.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/lowestCommonAncestor.py" />
+        <option value="$PROJECT_DIR$/problems/misc/people.py" />
       </list>
     </option>
   </component>
@@ -195,37 +190,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -252,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.isHappy">
+  <component name="RunManager" selected="Python.people">
     <configuration name="anagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,28 +254,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/leetcode/isHappy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="isPowerOfTwo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coding_challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/leetcode/isPowerOfTwo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,20 +306,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="people" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coding_challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/misc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/misc/people.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.isPowerOfTwo" />
       <item itemvalue="Python.mostCommonWord" />
       <item itemvalue="Python.isValid" />
       <item itemvalue="Python.anagrams" />
       <item itemvalue="Python.isHappy" />
+      <item itemvalue="Python.people" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.people" />
         <item itemvalue="Python.isHappy" />
         <item itemvalue="Python.anagrams" />
         <item itemvalue="Python.isValid" />
         <item itemvalue="Python.mostCommonWord" />
-        <item itemvalue="Python.isPowerOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -424,12 +389,13 @@
       <workItem from="1546582641675" duration="554000" />
       <workItem from="1546647211531" duration="1994000" />
       <workItem from="1546744602280" duration="591000" />
-      <workItem from="1546847296620" duration="1752000" />
+      <workItem from="1546847296620" duration="1775000" />
+      <workItem from="1546888933741" duration="737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24510000" />
+    <option name="totallyTimeSpent" value="25270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,7 +415,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22037736" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22037736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45962265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,7 +424,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32830188" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32830188" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32830188" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32981133" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -546,13 +512,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/leetcode/reverseWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/reverseWords151.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -911,8 +870,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/lowestCommonAncestor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/misc/people.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="120" selection-start-line="120" selection-end-line="121" selection-end-column="32" />
+          <folding>
+            <element signature="e#335#364#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
