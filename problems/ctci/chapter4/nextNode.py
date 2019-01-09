@@ -7,8 +7,8 @@ class Tree(object):
         self.parent = None
 
 
-# O() runtime
-# O() space
+# O(log(N)) runtime
+# O(1) space
 def nextNode(root):
     if root.right:
         root = root.right
