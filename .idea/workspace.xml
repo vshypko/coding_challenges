@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/ctci/chapter4/listOfDepths.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/ctci/chapter4/listOfDepths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
     <SUITE FILE_PATH="coverage/coding_challenges$loopDetection.coverage" NAME="loopDetection Coverage Results" MODIFIED="1541374338542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$listOfDepths.coverage" NAME="listOfDepths Coverage Results" MODIFIED="1547012183885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
     <SUITE FILE_PATH="coverage/coding_challenges$isPowerOfThree.coverage" NAME="isPowerOfThree Coverage Results" MODIFIED="1539125750791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
-    <SUITE FILE_PATH="coverage/coding_challenges$isBalanced.coverage" NAME="isBalanced Coverage Results" MODIFIED="1542094642196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
+    <SUITE FILE_PATH="coverage/coding_challenges$isBalanced.coverage" NAME="isBalanced Coverage Results" MODIFIED="1547014753639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
     <SUITE FILE_PATH="coverage/coding_challenges$sumLists.coverage" NAME="sumLists Coverage Results" MODIFIED="1541380029967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
     <SUITE FILE_PATH="coverage/coding_challenges$stringCompression.coverage" NAME="stringCompression Coverage Results" MODIFIED="1540926201489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$intersection.coverage" NAME="intersection Coverage Results" MODIFIED="1541377579237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter2" />
@@ -82,19 +81,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/ctci/chapter4/listOfDepths.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -178,8 +168,8 @@
         <option value="$PROJECT_DIR$/problems/leetcode/lowestCommonAncestor.py" />
         <option value="$PROJECT_DIR$/problems/misc/people.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/minimalTree.py" />
-        <option value="$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/listOfDepths.py" />
+        <option value="$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py" />
       </list>
     </option>
   </component>
@@ -254,8 +244,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.listOfDepths">
-    <configuration name="anagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.isBalanced">
+    <configuration name="isBalanced" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,12 +253,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/misc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/ctci/chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/misc/anagrams.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -366,19 +356,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.anagrams" />
       <item itemvalue="Python.isHappy" />
       <item itemvalue="Python.people" />
       <item itemvalue="Python.minimalTree" />
       <item itemvalue="Python.listOfDepths" />
+      <item itemvalue="Python.isBalanced" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.isBalanced" />
         <item itemvalue="Python.listOfDepths" />
         <item itemvalue="Python.minimalTree" />
         <item itemvalue="Python.people" />
         <item itemvalue="Python.isHappy" />
-        <item itemvalue="Python.anagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -428,12 +418,12 @@
       <workItem from="1546744602280" duration="591000" />
       <workItem from="1546847296620" duration="1775000" />
       <workItem from="1546888933741" duration="779000" />
-      <workItem from="1546990144692" duration="3173000" />
+      <workItem from="1546990144692" duration="3909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28485000" />
+    <option name="totallyTimeSpent" value="29221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter2/loopDetection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -911,8 +894,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter4/listOfDepths.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="554">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
