@@ -1,7 +1,7 @@
 # 4.7
 
-# O() runtime
-# O() space
+# O(num of projects + num of dependencies) runtime
+# O(num of projects) space
 
 class Graph:
     def __init__(self, vertices, edges):
