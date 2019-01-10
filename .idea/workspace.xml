@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/leetcode/canFinish.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/leetcode/findOrder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,6 +52,7 @@
     <SUITE FILE_PATH="coverage/coding_challenges$google3.coverage" NAME="google3 Coverage Results" MODIFIED="1539200981560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$findComplement.coverage" NAME="findComplement Coverage Results" MODIFIED="1539458403066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$isToeplitzMatrix.coverage" NAME="isToeplitzMatrix Coverage Results" MODIFIED="1542696038008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
+    <SUITE FILE_PATH="coverage/coding_challenges$findOrder.coverage" NAME="findOrder Coverage Results" MODIFIED="1547156167611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$zeroMatrix.coverage" NAME="zeroMatrix Coverage Results" MODIFIED="1540926399039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$isPalindromePermutation.coverage" NAME="isPalindromePermutation Coverage Results" MODIFIED="1540072090573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter1" />
     <SUITE FILE_PATH="coverage/coding_challenges$anagrams.coverage" NAME="anagrams Coverage Results" MODIFIED="1546462639815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
@@ -93,11 +94,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/leetcode/canFinish.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="201">
               <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/leetcode/findOrder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -132,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/leetcode/firstUniqChar.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/reverseWords151.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/isToeplitzMatrix.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/maxDepth.py" />
@@ -183,6 +192,7 @@
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/nextNode.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/buildOrder.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/canFinish.py" />
+        <option value="$PROJECT_DIR$/problems/leetcode/findOrder.py" />
       </list>
     </option>
   </component>
@@ -225,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.buildOrder">
+  <component name="RunManager" selected="Python.findOrder">
     <configuration name="buildOrder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,6 +258,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="findOrder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="coding_challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/leetcode/findOrder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="isBalanced" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,28 +294,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter4/isBalanced.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="listOfDepths" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="coding_challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems/ctci/chapter4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/ctci/chapter4/listOfDepths.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,19 +347,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.listOfDepths" />
       <item itemvalue="Python.isBalanced" />
       <item itemvalue="Python.validateBST" />
       <item itemvalue="Python.nextNode" />
       <item itemvalue="Python.buildOrder" />
+      <item itemvalue="Python.findOrder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findOrder" />
         <item itemvalue="Python.buildOrder" />
         <item itemvalue="Python.nextNode" />
         <item itemvalue="Python.validateBST" />
         <item itemvalue="Python.isBalanced" />
-        <item itemvalue="Python.listOfDepths" />
       </list>
     </recent_temporary>
   </component>
@@ -400,12 +410,12 @@
       <workItem from="1546847296620" duration="1775000" />
       <workItem from="1546888933741" duration="779000" />
       <workItem from="1546990144692" duration="6444000" />
-      <workItem from="1547072119584" duration="3034000" />
+      <workItem from="1547072119584" duration="4330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34790000" />
+    <option name="totallyTimeSpent" value="36086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,8 +435,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31082803" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45859873" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31082803" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5235669" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32981133" />
@@ -522,13 +532,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/misc/checkTicTacToe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/misc/countKDistinctSubstrings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -868,8 +871,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/leetcode/canFinish.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="201">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/leetcode/findOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
         </state>
       </provider>
     </entry>
