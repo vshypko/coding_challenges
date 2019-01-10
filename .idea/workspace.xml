@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/problems/leetcode/canFinish.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/ctci/chapter4/buildOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/ctci/chapter4/buildOrder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,11 +84,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/ctci/chapter4/buildOrder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/leetcode/canFinish.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -123,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/leetcode/searchBST.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/firstUniqChar.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/reverseWords151.py" />
         <option value="$PROJECT_DIR$/problems/leetcode/isToeplitzMatrix.py" />
@@ -174,6 +182,7 @@
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/validateBST.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/nextNode.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter4/buildOrder.py" />
+        <option value="$PROJECT_DIR$/problems/leetcode/canFinish.py" />
       </list>
     </option>
   </component>
@@ -391,12 +400,12 @@
       <workItem from="1546847296620" duration="1775000" />
       <workItem from="1546888933741" duration="779000" />
       <workItem from="1546990144692" duration="6444000" />
-      <workItem from="1547072119584" duration="2494000" />
+      <workItem from="1547072119584" duration="3034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34250000" />
+    <option name="totallyTimeSpent" value="34790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,7 +425,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31082803" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31082803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45859873" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,16 +522,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumBribes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/misc/checkTicTacToe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -862,8 +861,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter4/buildOrder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/leetcode/canFinish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
