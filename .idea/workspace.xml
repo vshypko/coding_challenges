@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5196878-38b8-4904-9740-a669ccd5ee70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/ctci/chapter8/powerSet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/leetcode/subsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +31,11 @@
     <SUITE FILE_PATH="coverage/coding_challenges$routeBetweenNodes.coverage" NAME="routeBetweenNodes Coverage Results" MODIFIED="1541658655620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
     <SUITE FILE_PATH="coverage/coding_challenges$twoSum.coverage" NAME="twoSum Coverage Results" MODIFIED="1540622327231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$trieClass.coverage" NAME="trieClass Coverage Results" MODIFIED="1547235722471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
-    <SUITE FILE_PATH="coverage/coding_challenges$powerSet.coverage" NAME="powerSet Coverage Results" MODIFIED="1547317681715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter8" />
+    <SUITE FILE_PATH="coverage/coding_challenges$powerSet.coverage" NAME="powerSet Coverage Results" MODIFIED="1547332372132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter8" />
     <SUITE FILE_PATH="coverage/coding_challenges$isValid.coverage" NAME="isValid Coverage Results" MODIFIED="1544684971611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/5_strings" />
     <SUITE FILE_PATH="coverage/coding_challenges$google1.coverage" NAME="google1 Coverage Results" MODIFIED="1539151485411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
     <SUITE FILE_PATH="coverage/coding_challenges$test.coverage" NAME="test Coverage Results" MODIFIED="1540876270778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/misc" />
+    <SUITE FILE_PATH="coverage/coding_challenges$subsets.coverage" NAME="subsets Coverage Results" MODIFIED="1547332768584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$findAnagrams.coverage" NAME="findAnagrams Coverage Results" MODIFIED="1542264705456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$isHappy.coverage" NAME="isHappy Coverage Results" MODIFIED="1546848860892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/leetcode" />
     <SUITE FILE_PATH="coverage/coding_challenges$minimalTree.coverage" NAME="minimalTree Coverage Results" MODIFIED="1547008598481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems/ctci/chapter4" />
@@ -110,11 +111,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/ctci/chapter8/powerSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/leetcode/subsets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -149,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/arrays/hourglassSum.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/hourglassSum.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/rotLeft.py" />
         <option value="$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/2_arrays/minimumBribes.py" />
@@ -200,6 +209,7 @@
         <option value="$PROJECT_DIR$/problems/ctci/chapter8/robotGrid.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter8/magicNumber.py" />
         <option value="$PROJECT_DIR$/problems/ctci/chapter8/powerSet.py" />
+        <option value="$PROJECT_DIR$/problems/leetcode/subsets.py" />
       </list>
     </option>
   </component>
@@ -216,38 +226,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter8" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -275,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.powerSet">
+  <component name="RunManager" selected="Python.subsets">
     <configuration name="magicNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,7 +321,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trieClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="subsets" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="coding_challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,7 +334,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/leetcode/trieClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/leetcode/subsets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,19 +366,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.trieClass" />
       <item itemvalue="Python.tripleStep" />
       <item itemvalue="Python.robotGrid" />
       <item itemvalue="Python.magicNumber" />
       <item itemvalue="Python.powerSet" />
+      <item itemvalue="Python.subsets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.subsets" />
         <item itemvalue="Python.powerSet" />
         <item itemvalue="Python.magicNumber" />
         <item itemvalue="Python.robotGrid" />
         <item itemvalue="Python.tripleStep" />
-        <item itemvalue="Python.trieClass" />
       </list>
     </recent_temporary>
   </component>
@@ -455,12 +434,12 @@
       <workItem from="1547234650360" duration="1275000" />
       <workItem from="1547236308935" duration="11000" />
       <workItem from="1547258694045" duration="10493000" />
-      <workItem from="1547317990907" duration="316000" />
+      <workItem from="1547317990907" duration="737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54499000" />
+    <option name="totallyTimeSpent" value="54920000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,7 +459,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.19628432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38415095" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38415095" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5207547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,13 +565,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/11_trees/height.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/hackerrank/interview_prep_kit/13_recursion_backtracking/fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -935,8 +907,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/ctci/chapter8/powerSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/leetcode/subsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
