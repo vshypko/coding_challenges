@@ -19,6 +19,6 @@ def magicNumberHelper(array, start, end):
 
 
 array = [-7, -3, 0, 3, 5, 12]
-print(magicNumber(array))
+assert magicNumber(array) == 3
 array = [-7, -3, 0, 4, 5, 12]
-print(magicNumber(array))
+assert magicNumber(array) is None
