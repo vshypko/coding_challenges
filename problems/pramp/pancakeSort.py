@@ -8,7 +8,7 @@ def pancakeSort(arr):
     for j in range(n):
         maxElem = float('-inf')
         maxElemIndex = 0
-        for i in range(len(arr)-startIndex):
+        for i in range(len(arr) - startIndex):
             maxElem = max(maxElem, arr[i])
             if maxElem == arr[i]:
                 maxElemIndex = i + 1
