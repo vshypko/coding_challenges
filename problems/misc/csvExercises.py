@@ -1,6 +1,7 @@
 """
 Write an exercise loader class.  Exercises are stored in a CSV as id, name, glycemic index.
-Load the data as part of the object initialization and provide a sensible interface to query the data.
+Load the data as part of the object initialization and provide a sensible interface to query
+the data.
 
 Example CSV file:
 id,name,glycemic_index
@@ -14,7 +15,8 @@ Feel free to use google
 Use whatever language and editor you would like
 id and name are unique
 """
-import csv
+import _csv
+
 
 class Exercise:
     def __init__(self, id, name, glycemic_index):
@@ -29,9 +31,9 @@ class Exercises:
         self.idExerciseMap = {}
         self.nameExerciseMap = {}
         self.glycExerciseMap = {}
-        self.populateHashmap()
+        self.populateHashmaps()
 
-    def populateHashmap(self):
+    def populateHashmaps(self):
         for exercise in self.listOfExercises:
             self.idExerciseMap[exercise.id] = exercise
             self.nameExerciseMap[exercise.name] = exercise
@@ -50,6 +52,7 @@ class Exercises:
     def findByGlycIndex(self, index):
         if index in self.glycExerciseMap:
             return self.glycExerciseMap[index]
+
 
 def loader(csv_file):
     with open(csv_file, newline='') as csvfile:
